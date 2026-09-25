@@ -50,10 +50,9 @@ In den 1990er Jahren waren die meisten Websites statisch. Das bedeutet, dass der
 ^
 Die Abbildung zeigt die Funktionsweise von statischen Websites. Zuerst muss der Domain-Name über das Domain Name System (DNS) in die IP-Adresse des Webservers aufgelöst werden (Schritt 1 und 2 in der Abbildung). Danach schickt der Client eine http-Anfrage an den entsprechenden Webserver und erhält von diesem eine http-Antwort, die überlicherweise zuerst die index.htmlenthält (Schritt 3 und 4).
 
+Ab den 2000er Jahren setzten sich zunehmend dynamische Websites durch. Im Gegensatz zu statischen Websites werden die Inhalte hier nicht fest in HTML-Dateien gespeichert, sondern bei jeder Anfrage dynamisch vom Webserver generiert. Dies ermöglicht personalisierte Inhalte und interaktive Funktionen.
 
+![alt text](image-1.png)
 
-
-
-
-
+Der Ablauf der Seitenerstellung ist in der folgenden Grafik dargestellt. Die URL-Auflösung mittels DNS erfolgt wie bei statischen Websites(in der Grafik lila dargestellt). Der Webserver braucht bei dynamischen Websites aber unterstützung durch eine serverseitige Programmiersprache.(PHP, Python, Ruby, etc.) Wenn der Webbrowser bzw. Webclient bei einem Restaurantbesuch als Gast gesehen wird, dann ist der Webserver der Kellner, der die Bestellung aufnimmt und sie an den Koch weitergibt. Die Köchin ist dann in diesem Fall die serverseitige Programmiersprache. Sie greift daraufhin auf die Zutaten in der Vorratskammer (Datenbank) und bereitet das Gericht nach einem Rezept (HTML-Template bzw. Vorlage) zu. Das fertige Gericht (HTML-File) wird dann vom Kellner (Webserver) an den Gast (Webbrowser) serviert.
 
